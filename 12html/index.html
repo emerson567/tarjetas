@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWorld</title>
+    <link rel="stylesheet" href="css.css.css">
+</head>
+<body>
+    <!-- Menú superior -->
+    <nav class="menu">
+        <div class="logo-container">
+            <img src="./img/OIP.jpg" alt="Logo">
+            <div class="logo-text">
+                <h1>PetWorld</h1>
+            </div>
+        </div>
+        <div class="menu-options">
+            <a href="./index.html" class="active" onclick="showPage('inicio')">Inicio</a>
+            <a href="./servicios.html" onclick="showPage('servicios')">Nuestros Servicios</a>
+            <a href="./informacion.html" onclick="showPage('informacion')">Información</a>
+            <a href="./contactos.html" onclick="showPage('contacto')">Contáctanos</a>
+        </div>
+    </nav>
+    
+    <!-- Contenido principal (inicio) -->
+    <main id="inicio" class="content">
+        <div class="section-heading">
+            <h2>Bienvenidos a PetWorld</h2>
+            <p>Descubre un mundo de amistad y cuidado para tu mascota</p>
+        </div>
+        
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/centado.webp" alt="Perro">
+                <div class="card-content">
+                    <h3>Nuestros amigos caninos</h3>
+                    <p>Los perros son conocidos como los mejores amigos del hombre. Leales, amorosos y protectores, estos animales nos brindan compañía incondicional y alegría todos los días. En PetWorld encontrarás todo lo que necesitas para su cuidado.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="./img/gato.jpg" alt="Gato">
+                <div class="card-content">
+                    <h3>Felinos encantadores</h3>
+                    <p>Los gatos son mascotas independientes y cariñosas que llenan nuestros hogares de elegancia y personalidad. Su naturaleza curiosa y juguetona los convierte en compañeros perfectos. Tenemos todos los productos para mantenerlos saludables y felices.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

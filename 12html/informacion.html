@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWorld - Información</title>
+    <link rel="stylesheet" href="./css.css.css">
+</head>
+<body>
+    <!-- Menú superior -->
+    <nav class="menu">
+        <div class="logo-container">
+            <img src="./img/OIP.jpg" alt="Logo">
+            <div class="logo-text">
+                <h1>PetWorld</h1>
+            </div>
+        </div>
+        <div class="menu-options">
+            <a href="./index.html"  onclick="showPage('inicio')">Inicio</a>
+            <a href="./servicios.html"  onclick="showPage('servicios')">Nuestros Servicios</a>
+            <a href="./informacion.html" class="active" onclick="showPage('informacion')">Información</a>
+            <a href="./contactos.html" onclick="showPage('contacto')">Contáctanos</a>
+        </div>
+    </nav>
+    
+    <!-- Página de Información -->
+    <section class="content">
+        <div class="section-heading">
+            <h2>Información</h2>
+            <p>Conoce más sobre nosotros</p>
+        </div>
+        
+        <div class="info-container">
+            <div class="info-box">
+                <h3>Nuestra Historia</h3>
+                <p>PetWorld nació en 2015 con la misión de ofrecer los mejores productos y servicios para mascotas. Fundada por un equipo de veterinarios y amantes de los animales, nuestra empresa se ha convertido en referente del sector gracias a nuestro compromiso con la calidad y el bienestar animal.</p>
+                <p>Contamos con un equipo de más de 50 profesionales especializados en diferentes áreas del cuidado animal, desde veterinarios hasta entrenadores certificados y estilistas con formación internacional.</p>
+                <p>Nuestras instalaciones están diseñadas pensando en el bienestar animal, con espacios amplios, seguros y equipados con la última tecnología en tratamientos veterinarios.</p>
+            </div>
+            
+            <div class="info-box">
+                <h3>Compromiso Social</h3>
+                <p>En PetWorld creemos firmemente en la adopción responsable y el bienestar animal. Por eso, destinamos parte de nuestros beneficios a refugios locales y organizamos jornadas de adopción mensualmente.</p>
+              
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3>5,000+</h3>
+                    <p>Clientes satisfechos</p>
+                </div>
+                <div class="info-item">
+                    <h3>50+</h3>
+                    <p>Profesionales especializados</p>
+                </div>
+                <div class="info-item">
+                    <h3>12</h3>
+                    <p>Premios del sector</p>
+                </div>
+                <div class="info-item">
+                    <h3>500+</h3>
+                    <p>Adopciones realizadas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
